@@ -1,0 +1,106 @@
+version: "3.1"
+
+stories:
+
+- story: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: affirm
+  steps:
+  - intent: affirm
+  - action:   utter_happy
+
+
+- story: sad
+  steps:
+  - intent: mood_unhappy
+  - action: utter_sad
+  - action: utter_help
+
+- story: Whatisedyou
+  steps:
+  - intent: Whatisedyou
+  - action: utter_Whatisedyou
+
+- story: Howwilledyouhelpme
+  steps:
+  - intent: Howwilledyouhelpme
+  - action: utter_Howwilledyouhelpme
+
+
+- story: WhatisESR
+  steps:
+  - intent: WhatisESR
+  - action: utter_WhatisESR
+
+- story: WhatdoesMCVmean
+  steps:
+  - intent: WhatdoesMCVmean
+  - action: utter_WhatdoesMCVmean
+
+- story: Whatistotalironbindingcapacity
+  steps:
+  - intent: Whatistotalironbindingcapacity
+  - action: utter_Whatistotalironbindingcapacity
+
+- story: Whatisanupperendoscopy
+  steps:
+  - intent: Whatisanupperendoscopy
+  - action: utter_Whatisanupperendoscopy
+
+- story: Whatisaspherocyte
+  steps:
+  - intent: Whatisaspherocyte
+  - action: utter_Whatisaspherocyte
+
+- story: WhatisadirectCoombstest
+  steps:
+  - intent: WhatisadirectCoombstest
+  - action: utter_WhatisadirectCoombstest
+
+- story: Whatisbluelightphototherapy
+  steps:
+  - intent: Whatisbluelightphototherapy
+  - action: utter_Whatisbluelightphototherapy
+
+- story: Whatisthesignificanceofdarkurine
+  steps:
+  - intent: Whatisthesignificanceofdarkurine
+  - action: utter_Whatisthesignificanceofdarkurine
+
+- story: Whatisacuteliverfailure
+  steps:
+  - intent: Whatisacuteliverfailure
+  - action: utter_Whatisacuteliverfailure
+
+- story: Topic_Anemia
+  steps:
+  - intent: Topic_Anemia
+  - action: utter_Topic_Anemia
+
+
+
+- story: Greatings
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - action: utter_help
+  # - intent: bot_exam
+  # - action: utter_botexam
+
+
+
+
+# - story: moreinfo
+#   steps:
+#   - intent: moreinfo
+#   - action: action_hello_world

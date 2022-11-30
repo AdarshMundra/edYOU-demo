@@ -1,0 +1,113 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - Whatisedyou
+  - WhatisESR
+  - WhatdoesMCVmean
+  - Whatistotalironbindingcapacity
+  - Topic_Anemia
+  - Whatisanupperendoscopy
+  - Whatisaspherocyte
+  - WhatisadirectCoombstest
+  - Whatisbluelightphototherapy
+  - Whatisthesignificanceofdarkurine
+
+
+
+responses:
+  utter_greet:
+  - text: "Hi, my name is Alex. How are you?"
+
+  utter_cheer_up:
+  - text: "what is the problem "
+  
+
+  utter_happy:
+  - text: "Great to hear that."
+
+  utter_sad:
+  - text: "Sad to hear that, hope you get well soon."
+
+  utter_goodbye:
+  - text: "Bye"
+  utter_help:
+  - text: "How can I Help You"
+  utter_resumeTest:
+  - text: "Shall we resume the previous topics or start a new one. Or you can choose from other options too"
+  utter_TestOptions:
+  - text: "1) Resume the previous one. 2) Start a new one."
+
+  utter_Whatisedyou:
+  - text: oibfnkl nslkn slk nsflk lfsk kfsksjf
+
+  utter_Howwilledyouhelpme:
+  - text: jkvdf skjkjskjl sfjkl sflkj lsflksjfnvlksnmlksnslnkfd
+
+
+  utter_WhatisESR:
+  - text: Erythrocyte sedimentation rate is a study performed to determine presence of inflammation in the body 
+          If there is inflammation present, the red blood cells sink faster than normal because inflammation causes RBCs to clump together and therefore be heavier 
+          Normal range for men is 0 – 22 mm/hr and for women is 0 – 29 mm/hr
+
+  utter_WhatdoesMCVmean:
+  - text: MCV = mean corpuscular volume, which is a determination of the size of a RBC
+          Normal MCV is between 80 – 100fl, normocytic
+          Microcytic = MCV less than 80fl
+          Macrocytic = MCV greater than 100fl
+  
+  utter_Whatistotalironbindingcapacity:
+  - text: This is a determination of the amount of transferrin in the blood at the time of the test
+      Transferrin is the protein that binds to and transports iron through to blood to the destination tissues/organs
+      Transferrin is elevated in conditions where iron stores in the body are low and depressed in conditions where iron stores in the body are high
+      Body regulates transferrin levels based on the demand for iron
+  
+  utter_Whatisanupperendoscopy:
+  - text: An upper endoscopy is a scope that is inserted into the patient’s upper GI tract (proximal to the 2nd part of the duodenum) to look for issues with the esophagus, stomach, and proximal duodenum
+      This is an invasive study that should be performed after lab studies are completed (only time this is done urgently is if the condition is life-threatening) 
+
+  utter_Whatisaspherocyte:
+  - text: A spherocyte is a red blood cell that has less “central pallor” than a typical RBC
+        Key thing to note is that both spherocyte and normal RBCs are round
+        Reason for this is that a spherocyte has mutations in membrane proteins which cause it to have less overall surface area
+        This creates an imbalance between the amount of hemoglobin within the cell and the surrounding membrane (since the hemoglobin is a red color when attached to oxygen, this creates a darker appearance to the cell)
+
+  utter_WhatisadirectCoombstest:
+  - text: This process begins with taking a blood sample from a patient with an autoimmune hemolytic anemia and exposing this blood to a “Coombs reagent” which binds to human antibodies
+        Since an autoimmune hemolytic anemia has antibodies bound to RBC surfaces, the Coombs reagent will bind to this surface-bound antibodies
+        This binding of the Coombs reagent will create clumping, which is seen in the blood sample and indicates a positive test (presence of autoimmune antibodies to RBCs)
+
+  utter_Whatisbluelightphototherapy:
+  - text: This is a type of light therapy that involves shining fluorescent light onto bare skin
+        Certain wavelengths of light can penetrate the skin and convert the bilirubin into a water-soluble form
+        This helps the newborn handle the excessive load of unconjugated bilirubin and prevents neurological complications such as kernicterus (damage to the brain)
+
+  utter_Whatisthesignificanceofdarkurine:
+  - text: Dark urine is an indication of unusual waste products being excreted from the body; possible causes include
+        Buildup of water-soluble conjugated bilirubin in the blood (due to bile duct failure or failure to excrete bile)
+        Release of hemoglobin into the urine via the kidney due to intravascular hemolysis and glomerular filtration of free Hb
+        Muscle breakdown and release of myoglobin into the urine
+ 
+  utter_Whatisacuteliverfailure:
+  - text: Sudden onset and severe damage to the liver, resulting in failure of its productive functions 
+        Can be due to viral hepatitis, toxins, or drugs
+        Signs that indicate liver failure include prolonged coagulation times (due to liver being the site of synthesis of coagulation proteins), low albumin levels, and symptoms of encephalopathy (mental status changes, neurologic issues) 
+ 
+
+  utter_Topic_Anemia:
+  - text: "Anemia is a condition in which you lack enough healthy red blood cells to carry adequate oxygen to your body's tissues. Having anemia, also referred to as low hemoglobin, can make you feel tired and weak."
+
+
+  utter_default:
+  - text: "Sorry I dont know the answer."
+
+  # utter_info:
+  # - text: "nothing"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
