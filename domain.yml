@@ -8,6 +8,11 @@ intents:
   - mood_great
   - mood_unhappy
   - Whatisedyou
+  - Whichlanguagesdoesedyousupport
+  - Whatcareertracksdoesedyouprovide
+  - Howwilledyouhelpme
+  - WhencanIlearn
+  - Whatisthevisionofcompany
   - WhatisESR
   - WhatdoesMCVmean
   - Whatistotalironbindingcapacity
@@ -44,11 +49,26 @@ responses:
   - text: "1) Resume the previous one. 2) Start a new one."
 
   utter_Whatisedyou:
-  - text: oibfnkl nslkn slk nsflk lfsk kfsksjf
+  - text: edYOU provides an AI-driven digital learning solution for motivated people in an inclusive environment with an encouraging voice helping them feel accomplished, rewarded and pleasantly surprised.
+
 
   utter_Howwilledyouhelpme:
-  - text: jkvdf skjkjskjl sfjkl sflkj lsflksjfnvlksnmlksnslnkfd
+  - text: The arrival of AI is transforming the world of education. With edyou you get to leverage the latest in edutech to learn for exams, jobs or passion. I will be like a personal tutor for you, available anytime, helping you learn and grow using my AI capabilities.
 
+  utter_Whatcareertracksdoesedyouprovide:
+  - text: We provide variety of educational courses in multiple domains including Medical, Engineering, Law etc. In Medical we provide a USMLE career track where we prepare you to succeed in the USMLE examination.
+
+
+  utter_Whichlanguagesdoesedyousupport:
+  - text: Currently we support English language with a. Plan to support Spanish, Russian, Hindi, Italian, among others.
+
+
+  utter_WhencanIlearn:
+  - text: I am available for you any time of the day or week to learn unlike the regular classes.
+
+
+  utter_Whatisthevisionofcompany:
+  - text: Our vision is to redefine education for generations to come by creating the world's most immersive and adaptive AI learning experiences.
 
   utter_WhatisESR:
   - text: Erythrocyte sedimentation rate is a study performed to determine presence of inflammation in the body 

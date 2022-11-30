@@ -34,6 +34,27 @@ stories:
   - intent: Howwilledyouhelpme
   - action: utter_Howwilledyouhelpme
 
+- story: Whatcareertracksdoesedyouprovide
+  steps:
+  - intent: Whatcareertracksdoesedyouprovide
+  - action: utter_Whatcareertracksdoesedyouprovide
+
+- story: Whatisthevisionofcompany
+  steps:
+  - intent: Whatisthevisionofcompany
+  - action: utter_Whatisthevisionofcompany
+
+- story: Whichlanguagesdoesedyousupport
+  steps:
+  - intent: Whichlanguagesdoesedyousupport
+  - action: utter_Whichlanguagesdoesedyousupport
+
+- story: WhencanIlearn
+  steps:
+  - intent: WhencanIlearn
+  - action: utter_WhencanIlearn
+
+
 
 - story: WhatisESR
   steps:
